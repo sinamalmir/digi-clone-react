@@ -1,0 +1,137 @@
+@media (min-width:992px){
+    .mobile-header{
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px ) {
+    .desktop-header{
+        display: none;
+    }
+    .top-header img{
+        height: 27px;
+    }
+    header{
+        /* margin-bottom: 100px; */
+    }
+    .top-head{
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(0,0,0 ,.1);
+    }
+    svg.svg-inline--fa.fa-question {
+        position: absolute;
+        top: 43px;
+        left: 17px;
+        border: 1px solid rgba(0,0,0);
+        border-radius: 23%;
+        width: 14px;
+        height: 12px;
+        padding: 1px;
+    }
+    .logo-wrapper{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo-wrapper img{
+        width: auto;
+    }
+
+    input[type="text"] {
+        width: 95%;
+        padding: 5px 10px;
+        margin-right: 20px;
+        border-radius: 7px;
+        border: none;
+        background-color: #f0f0f1;
+    }
+    .col-3.login-wrapper {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .col-3.login-wrapper .login-icon{
+        margin-left: 7px;
+    }
+    .col-2.cart-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    svg.svg-inline--fa.fa-bars {
+        cursor: pointer;
+    }
+    .midle-head {
+        padding: 7px 0;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    .swiper-slide img {
+        /* max-width: 100%; */
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .digi-logo{
+        border-bottom: 1px solid rgba(0,0,0 ,.1);
+        padding: 10px 40px;
+    }
+    .menu{
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        z-index: 1000;
+        background-color: #fff;
+        height: 100vh;
+
+    }
+    .menu > ul{
+        display: flex;
+        flex-flow: column ;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .menu ul > li{
+        padding: 10px 0;
+    }
+    .menu ul > li > a{
+        color: #111;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .menu ul > li > a svg{
+        margin-left: 10px;
+        color: #a0a3a7;
+    }
+    .humburger-menu  {
+        width: 1.5rem;
+        height: 1.3rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+    .humburger-menu div{
+        width: 1.5rem;
+        height: 0.20rem;
+        background-color: #111;
+        border-radius: 10px;   
+    }
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

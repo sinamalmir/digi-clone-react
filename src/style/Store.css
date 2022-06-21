@@ -1,0 +1,10 @@
+
+.store-container{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+h2{
+    color: rebeccapurple;
+}
